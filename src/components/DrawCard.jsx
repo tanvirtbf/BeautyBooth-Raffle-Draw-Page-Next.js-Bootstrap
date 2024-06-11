@@ -12,9 +12,11 @@ const DrawCard = ({ title, para, icon, line }) => {
           <h3>{title}</h3>
           <p>{para}</p>
         </div>
-        <div className={`${styles.line}`}>
-          <Image src={line} />
-        </div>
+        {line && (
+          <div className={`${styles.line}`}>
+            <Image src={line} />
+          </div>
+        )}
       </div>
     </div>
   );

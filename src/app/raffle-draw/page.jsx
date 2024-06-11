@@ -47,7 +47,7 @@ const RaffleDraw = () => {
                 title="Win the lucky draw"
                 para="ভাগ্যবান বিজয়ীরা পাবেন আমাদের পক্ষ থেকে আকর্ষণীয় পুরষ্কার আকর্ষণীয় পুরষ্কার আকর্ষণীয় পুরষ্কার"
                 icon={icon3}
-                line={line}
+                line={false}
               />
             </div>
           </div>
@@ -55,7 +55,7 @@ const RaffleDraw = () => {
       </div>
       <div className={`${styles.cardSection}`}>
         <div className="container">
-          <div className={`${styles.cardRow} row`}>
+          <div className={`${styles.cardRow}`}>
             {data.map((item, i) => (
               <ProductCard
                 key={i}
