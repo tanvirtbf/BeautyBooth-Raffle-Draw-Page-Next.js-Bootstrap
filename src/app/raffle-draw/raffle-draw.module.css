@@ -32,9 +32,9 @@
   color: #3D3D4E;
 }
 .secondPart{
-  display: flex;
   width: 100%;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: auto auto auto;
   gap: 20px;
 }
 .cardSection{

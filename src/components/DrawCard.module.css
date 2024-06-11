@@ -2,7 +2,6 @@
   display: flex;
   align-items: center;
   gap:28px;
-  width: 33%;
 }
 .text{
   display: flex;
@@ -26,9 +25,8 @@
   line-height: 20px;
   color: #222222;
 }
-.line{
 
-}
+
 @media (max-width: 576px){
   .drawCard{
     width: 100%;
