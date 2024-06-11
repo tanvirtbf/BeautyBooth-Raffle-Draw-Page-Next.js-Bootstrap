@@ -1,5 +1,13 @@
 .mainBannerImg{
   display: flex;
   justify-content: center;
+  margin-top: 12px;
+  margin-bottom: 50px;
+}
+.mainBannerImg img{
+  width: 100%;
+  height: 100%;
+}
+.howItWorks{
   
 }

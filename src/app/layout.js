@@ -1,5 +1,6 @@
 import { Roboto } from "next/font/google";
 import "./globals.css";
+import 'bootstrap/dist/css/bootstrap.css'
 
 const roboto = Roboto({ 
   subsets: ["latin"],

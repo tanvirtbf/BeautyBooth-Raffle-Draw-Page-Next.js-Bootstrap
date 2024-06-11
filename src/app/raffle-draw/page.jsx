@@ -1,18 +1,43 @@
-import React from 'react'
-import styles from './raffle-draw.module.css'
-import Image from 'next/image'
-import Banner from '../../../public/image 40.png'
+import DrawCard from "@/components/DrawCard";
+import Image from "next/image";
+import Banner from "../../../public/image 40.png";
+import styles from "./raffle-draw.module.css";
 
 const RaffleDraw = () => {
   return (
-    <div className='container'>
-      <div className='row'>
-        <div className={`${styles.mainBannerImg} col`} >
-          <Image src={Banner}/>
+    <div className="container">
+      <div className="row">
+        <div className={`${styles.mainBannerImg} col`}>
+          <Image src={Banner} />
+        </div>
+      </div>
+      <div className="row">
+        <div className={`${styles.howItWorks}`}>
+          <div className={`${styles.firstPart}`}>
+            <h2>How it works?</h2>
+            <p>
+              Don’t Live Another Day With Lower Back Pain. Take the Next Step
+              Today & Discover How We May Be Able to Help You.
+            </p>
+          </div>
+          <div className={`${styles.secondPart}`}>
+            <DrawCard
+              title="Buy products"
+              para="একজন কাস্টমার বা ইউজার প্রতি অর্ডার যার মূল্য ১৯৯৯ টাকা বা তার বেশি, তার জন্য একটি কুপন পাবেন"
+            />
+            <DrawCard
+              title="Get a coupon"
+              para="যতবার ১৯৯৯ টাকা বা তার বেশি অর্ডার করবেন কনটেস্ট এর সময়সীমার মধ্যে তত গুলো কুপন পাবেন"
+            />
+            <DrawCard
+              title="Win the lucky draw"
+              para="ভাগ্যবান বিজয়ীরা পাবেন আমাদের পক্ষ থেকে আকর্ষণীয় পুরষ্কার আকর্ষণীয় পুরষ্কার আকর্ষণীয় পুরষ্কার"
+            />
+          </div>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default RaffleDraw
+export default RaffleDraw;
