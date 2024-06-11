@@ -41,6 +41,12 @@
   background-color: #FFF3EB;
   padding: 80px 0;
 }
+.cardRow{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+  column-gap:20px;
+  row-gap: 32px;
+}
 
 
 

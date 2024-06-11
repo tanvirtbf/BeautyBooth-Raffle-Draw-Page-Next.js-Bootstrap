@@ -1,5 +1,5 @@
 import img1 from '../../public/Image.png'
-import img2 from '../../public/Image.png'
+import img2 from '../../public/Image (1).png'
 import img3 from '../../public/Image (2).png'
 import img4 from '../../public/Image (3).png'
 import img5 from '../../public/Image (4).png'
