@@ -2,6 +2,7 @@
   display: flex;
   align-items: center;
   column-gap:28px;
+  width: 33%;
 }
 .icon{
 
@@ -9,6 +10,7 @@
 .text{
   display: flex;
   align-items: center;
+  gap: 15px;
 }
 .pureText{
   display: flex;
