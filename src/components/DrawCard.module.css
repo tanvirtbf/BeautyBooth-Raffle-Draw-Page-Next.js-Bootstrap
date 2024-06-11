@@ -1,16 +1,13 @@
 .drawCard{
   display: flex;
   align-items: center;
-  column-gap:28px;
+  gap:28px;
   width: 33%;
-}
-.icon{
-
 }
 .text{
   display: flex;
-  align-items: center;
   gap: 15px;
+  align-items: center;
 }
 .pureText{
   display: flex;
@@ -31,4 +28,10 @@
 }
 .line{
 
+}
+@media (max-width: 576px){
+  .drawCard{
+    width: 100%;
+    gap: 16px;
+  }
 }

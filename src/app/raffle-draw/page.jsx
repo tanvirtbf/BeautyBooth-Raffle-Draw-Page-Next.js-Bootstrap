@@ -10,7 +10,7 @@ import styles from "./raffle-draw.module.css";
 const RaffleDraw = () => {
   return (
     <div className="container">
-
+      
       <div className="row">
         <div className={`${styles.mainBannerImg} col`}>
           <Image src={Banner} />
@@ -18,7 +18,7 @@ const RaffleDraw = () => {
       </div>
 
       <div className="row">
-        <div className={`${styles.howItWorks}`}>
+        <div className={`${styles.howItWorks} col`}>
           <div className={`${styles.firstPart}`}>
             <h2>How it works?</h2>
             <p>
@@ -47,6 +47,10 @@ const RaffleDraw = () => {
             />
           </div>
         </div>
+      </div>
+
+      <div className="row">
+
       </div>
 
     </div>
