@@ -9,8 +9,30 @@
   height: 100%;
 }
 .howItWorks{
-
+  padding: 50px 60px 50px 60px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 44px;
+}
+.firstPart{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  text-align: center;
+}
+.firstPart h2{
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+.firstPart p{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #3D3D4E;
 }
 .secondPart{
-  
+  display: flex;
+  padding: 0px 60px;
 }

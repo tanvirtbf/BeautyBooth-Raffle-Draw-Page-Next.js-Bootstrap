@@ -4,16 +4,19 @@ import Banner from "../../../public/image 40.png";
 import icon1 from "../../../public/icon-64-compass 1.svg";
 import icon2 from "../../../public/icon-64-compass 1 (1).svg";
 import icon3 from "../../../public/icon-64-compass 2.svg";
+import line from "../../../public/Line 3.png";
 import styles from "./raffle-draw.module.css";
 
 const RaffleDraw = () => {
   return (
     <div className="container">
+
       <div className="row">
         <div className={`${styles.mainBannerImg} col`}>
           <Image src={Banner} />
         </div>
       </div>
+
       <div className="row">
         <div className={`${styles.howItWorks}`}>
           <div className={`${styles.firstPart}`}>
@@ -28,20 +31,24 @@ const RaffleDraw = () => {
               title="Buy products"
               para="একজন কাস্টমার বা ইউজার প্রতি অর্ডার যার মূল্য ১৯৯৯ টাকা বা তার বেশি, তার জন্য একটি কুপন পাবেন"
               icon={icon1}
+              line={line}
             />
             <DrawCard
               title="Get a coupon"
               para="যতবার ১৯৯৯ টাকা বা তার বেশি অর্ডার করবেন কনটেস্ট এর সময়সীমার মধ্যে তত গুলো কুপন পাবেন"
               icon={icon2}
+              line={line}
             />
             <DrawCard
               title="Win the lucky draw"
               para="ভাগ্যবান বিজয়ীরা পাবেন আমাদের পক্ষ থেকে আকর্ষণীয় পুরষ্কার আকর্ষণীয় পুরষ্কার আকর্ষণীয় পুরষ্কার"
               icon={icon3}
+              line={line}
             />
           </div>
         </div>
       </div>
+
     </div>
   );
 };
