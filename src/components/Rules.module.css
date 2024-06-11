@@ -1,0 +1,30 @@
+.rules{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 12px;
+  margin-bottom: 40px;
+}
+.rules h2{
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  color: #222222;
+}
+.text h3, .text li{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #222222;
+}
+
+@media (max-width: 576px){
+  .rules h2{
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .text h3, .text li{
+    font-size: 14px;
+    line-height: 20px;
+  }
+}

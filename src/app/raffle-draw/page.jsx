@@ -8,6 +8,7 @@ import Banner from "../../../public/image 40.png";
 import line from "../../../public/Line 3.png";
 import { data } from "../product";
 import styles from "./raffle-draw.module.css";
+import Rules from "@/components/Rules";
 
 const RaffleDraw = () => {
   console.log(data);
@@ -64,6 +65,11 @@ const RaffleDraw = () => {
               />
             ))}
           </div>
+        </div>
+      </div>
+      <div className="container">
+        <div className="row">
+          <Rules />
         </div>
       </div>
     </>
