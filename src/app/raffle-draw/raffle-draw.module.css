@@ -52,7 +52,7 @@
 
 @media (max-width: 576px){
   .secondPart{
-    flex-direction: column;
+    grid-template-columns: 1fr;
     gap: 32px;
   }
   .howItWorks{
