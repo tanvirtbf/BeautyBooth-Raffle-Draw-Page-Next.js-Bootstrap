@@ -14,6 +14,7 @@ const RaffleDraw = () => {
   console.log(data);
   return (
     <>
+
       <div className="container">
         <div className="row">
           <div className={`${styles.mainBannerImg} col`}>
@@ -53,6 +54,7 @@ const RaffleDraw = () => {
           </div>
         </div>
       </div>
+
       <div className={`${styles.cardSection}`}>
         <div className="container">
           <div className={`${styles.cardRow}`}>
@@ -67,11 +69,13 @@ const RaffleDraw = () => {
           </div>
         </div>
       </div>
+
       <div className="container">
         <div className="row">
           <Rules />
         </div>
       </div>
+      
     </>
   );
 };
