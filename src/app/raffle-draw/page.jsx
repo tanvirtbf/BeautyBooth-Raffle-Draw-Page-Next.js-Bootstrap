@@ -5,12 +5,16 @@ import icon1 from "../../../public/icon-64-compass 1.svg";
 import icon2 from "../../../public/icon-64-compass 1 (1).svg";
 import icon3 from "../../../public/icon-64-compass 2.svg";
 import line from "../../../public/Line 3.png";
+
 import styles from "./raffle-draw.module.css";
+import { data } from "../product";
+
 
 const RaffleDraw = () => {
+  console.log(data)
   return (
     <div className="container">
-      
+
       <div className="row">
         <div className={`${styles.mainBannerImg} col`}>
           <Image src={Banner} />
@@ -50,7 +54,9 @@ const RaffleDraw = () => {
       </div>
 
       <div className="row">
-
+        <div className={`${styles.cardSection}`}>
+          
+        </div>
       </div>
 
     </div>
