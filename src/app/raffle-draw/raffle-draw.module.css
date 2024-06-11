@@ -51,6 +51,7 @@
   row-gap: 32px;
 }
 
+
 @media (max-width: 576px){
   .secondPart{
     grid-template-columns: 1fr;
@@ -67,4 +68,5 @@
     column-gap:20px;
     row-gap: 32px;
   }
+
 }

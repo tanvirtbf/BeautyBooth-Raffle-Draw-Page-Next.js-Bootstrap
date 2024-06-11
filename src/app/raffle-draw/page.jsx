@@ -11,7 +11,7 @@ import styles from "./raffle-draw.module.css";
 import Rules from "@/components/Rules";
 
 const RaffleDraw = () => {
-  console.log(data);
+  // console.log(data);
   return (
     <>
 
