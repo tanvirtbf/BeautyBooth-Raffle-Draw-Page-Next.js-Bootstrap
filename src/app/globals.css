@@ -105,3 +105,19 @@ a {
     color-scheme: dark;
   }
 }
+
+.raffle-btn{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.raffle-btn a{
+  padding: 20px;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: gainsboro;
+  color: black;
+  border-radius: 5px;
+}
