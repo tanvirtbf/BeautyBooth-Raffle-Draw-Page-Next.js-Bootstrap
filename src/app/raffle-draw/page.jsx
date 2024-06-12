@@ -58,7 +58,7 @@ const RaffleDraw = () => {
         <div className="container">
           <div className="row">
             {data.map((item, i) => (
-              <div className="col-6 col-sm-6 col-md-3">
+              <div className={`col-6 col-sm-6 col-md-3 gy-4 gx-3 ${styles.cardCol}`}>
                 <ProductCard
                   key={i}
                   title={item.title}

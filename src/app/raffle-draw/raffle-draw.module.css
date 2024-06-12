@@ -58,7 +58,10 @@
   row-gap: 32px;
   width: 100%;
 } */
-
+.cardCol{
+  column-gap: 20px;
+  row-gap: 32px;
+}
 
 
 @media (max-width: 576px) {
