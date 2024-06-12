@@ -19,6 +19,10 @@
   line-height: 24px;
   color: #5A5A5A;
   height: 48px;
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 .winner{
   display: flex;
