@@ -7,7 +7,6 @@
 }
 .text{
   display: flex;
-  gap: 15px;
   align-items: center;
 }
 .pureText{
@@ -29,6 +28,9 @@
   color: #222222;
   margin: 0;
 }
+.line{
+  padding:20px;
+}
 
 
 @media (max-width: 576px){
@@ -42,5 +44,17 @@
   .icon img{
     width: 72px;
     height: 72px;
+  }
+}
+@media (max-width: 1200px){
+  .drawCard{
+    width: 100%;
+    gap: 16px;
+  }
+  .line{
+    display: none;
+  }
+  .drawCard{
+    justify-content: flex-start;
   }
 }

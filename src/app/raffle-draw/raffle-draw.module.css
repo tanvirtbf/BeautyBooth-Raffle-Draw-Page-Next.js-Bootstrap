@@ -68,5 +68,9 @@
   .cardSection{
     padding: 20px 0;
   }
-
+}
+@media (max-width: 1200px){
+  .secondPart {
+    row-gap: 32px;
+  }
 }
