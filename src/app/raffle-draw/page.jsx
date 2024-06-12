@@ -1,5 +1,6 @@
 import DrawCard from "@/components/DrawCard";
 import ProductCard from "@/components/ProductCard";
+import Rules from "@/components/Rules";
 import Image from "next/image";
 import icon2 from "../../../public/icon-64-compass 1 (1).svg";
 import icon1 from "../../../public/icon-64-compass 1.svg";
@@ -8,13 +9,11 @@ import Banner from "../../../public/image 40.png";
 import line from "../../../public/Line 3.png";
 import { data } from "../product";
 import styles from "./raffle-draw.module.css";
-import Rules from "@/components/Rules";
 
 const RaffleDraw = () => {
   // console.log(data);
   return (
     <>
-
       <div className="container">
         <div className="row">
           <div className={`${styles.mainBannerImg} col`}>
@@ -57,14 +56,16 @@ const RaffleDraw = () => {
 
       <div className={`${styles.cardSection}`}>
         <div className="container">
-          <div className={`${styles.cardRow}`}>
+          <div className="row">
             {data.map((item, i) => (
-              <ProductCard
-                key={i}
-                title={item.title}
-                person={item.person}
-                url={item.img}
-              />
+              <div className="col-6 col-sm-6 col-md-3">
+                <ProductCard
+                  key={i}
+                  title={item.title}
+                  person={item.person}
+                  url={item.img}
+                />
+              </div>
             ))}
           </div>
         </div>
@@ -75,7 +76,6 @@ const RaffleDraw = () => {
           <Rules />
         </div>
       </div>
-      
     </>
   );
 };
