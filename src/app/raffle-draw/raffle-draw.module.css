@@ -53,10 +53,10 @@
 
 .cardRow {
   display: grid;
-  grid-template-columns: auto auto auto auto auto;
+  grid-template-columns: 24% 24% 24% 24% ;
   column-gap: 20px;
   row-gap: 32px;
-  width:
+  width: 100%;
 }
 
 
@@ -75,7 +75,7 @@
   }
 
   .cardRow {
-    grid-template-columns: auto auto;
+    grid-template-columns: 50% 50%;
     gap: 12px;
   }
   .cardSection{
