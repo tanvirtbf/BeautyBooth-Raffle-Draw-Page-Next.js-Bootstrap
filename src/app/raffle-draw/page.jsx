@@ -18,7 +18,7 @@ const RaffleDraw = () => {
       <div className="container">
         <div className="row">
           <div className={`${styles.mainBannerImg} col`}>
-            <Image src={Banner} />
+            <Image src={Banner} alt={Banner} />
           </div>
         </div>
 
