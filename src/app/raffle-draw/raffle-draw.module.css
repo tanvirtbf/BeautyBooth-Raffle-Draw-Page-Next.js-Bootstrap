@@ -51,17 +51,6 @@
   padding: 80px 0px;
 }
 
-/* .cardRow {
-  display: grid;
-  grid-template-columns: 24% 24% 24% 24% ;
-  column-gap: 20px;
-  row-gap: 32px;
-  width: 100%;
-} */
-.cardCol{
-  column-gap: 20px;
-  row-gap: 32px;
-}
 
 
 @media (max-width: 576px) {
@@ -77,11 +66,6 @@
   .mainBannerImg {
     margin-top: 16px;
   }
-
-  /* .cardRow {
-    grid-template-columns: 50% 50%;
-    gap: 12px;
-  } */
   .cardSection{
     padding: 20px 0;
   }
