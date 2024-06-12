@@ -5,7 +5,7 @@ const DrawCard = ({ title, para, icon, line }) => {
   return (
     <div className={`${styles.drawCard}`}>
       <div className={`${styles.icon}`}>
-        <Image src={icon} alt={icon} />
+        <Image src={icon} alt={icon} width={100} height={100} />
       </div>
       <div className={`${styles.text}`}>
         <div className={`${styles.pureText}`}>

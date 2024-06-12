@@ -1,5 +1,7 @@
 .drawCard{
   display: flex;
+  width: 33.333333%;
+  justify-content: space-between;
   align-items: center;
   gap:28px;
 }
@@ -18,12 +20,14 @@
   font-size: 18px;
   line-height: 24px;
   color: #000000;
+  margin:0;
 }
 .pureText p{
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
   color: #222222;
+  margin: 0;
 }
 
 
@@ -34,5 +38,9 @@
   }
   .line{
     display: none;
+  }
+  .icon img{
+    width: 72px;
+    height: 72px;
   }
 }

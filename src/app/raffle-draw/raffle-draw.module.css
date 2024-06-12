@@ -39,9 +39,9 @@
 
 .secondPart {
   width: 100%;
-  display: grid;
-  grid-template-columns: auto auto auto;
-  gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 /* CARD SECTION */
@@ -55,8 +55,7 @@
 
 @media (max-width: 576px) {
   .secondPart {
-    grid-template-columns: 1fr;
-    gap: 32px;
+    row-gap: 32px;
   }
 
   .howItWorks {
