@@ -3,6 +3,7 @@ import Vector from '../../public/Vector.png';
 import styles from "./ProductCard.module.css";
 
 const ProductCard = ({ title, person, url }) => {
+  console.log(url)
   return (
     <div className={`${styles.cardBody}`}>
       <div className={`${styles.pic}`}>
