@@ -1,37 +1,43 @@
-.mainBannerImg{
+.mainBannerImg {
   display: flex;
   justify-content: center;
   margin-top: 12px;
 }
-.mainBannerImg img{
+
+.mainBannerImg img {
   width: 100%;
   height: 100%;
 }
-.howItWorks{
+
+.howItWorks {
   padding: 50px 60px 50px 60px;
   display: flex;
   flex-direction: column;
   gap: 44px;
 }
-.firstPart{
+
+.firstPart {
   display: flex;
   flex-direction: column;
   gap: 8px;
   text-align: center;
 }
-.firstPart h2{
+
+.firstPart h2 {
   font-weight: 900;
   font-size: 24px;
   line-height: 28px;
   color: #000000;
 }
-.firstPart p{
+
+.firstPart p {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   color: #3D3D4E;
 }
-.secondPart{
+
+.secondPart {
   width: 100%;
   display: grid;
   grid-template-columns: auto auto auto;
@@ -39,33 +45,37 @@
 }
 
 /* CARD SECTION */
-.cardSection{
+.cardSection {
   background-color: #FFF3EB;
   width: 100vw;
   padding: 80px 0px;
 }
-.cardRow{
+
+.cardRow {
   display: grid;
   grid-template-columns: auto auto auto auto auto;
-  column-gap:20px;
+  column-gap: 20px;
   row-gap: 32px;
 }
 
 
-@media (max-width: 576px){
-  .secondPart{
+@media (max-width: 576px) {
+  .secondPart {
     grid-template-columns: 1fr;
     gap: 32px;
   }
-  .howItWorks{
+
+  .howItWorks {
     padding: 32px 16px 32px 10px;
   }
-  .mainBannerImg{
+
+  .mainBannerImg {
     margin-top: 16px;
   }
-  .cardRow{
+
+  .cardRow {
     grid-template-columns: auto auto;
-    column-gap:20px;
+    column-gap: 20px;
     row-gap: 32px;
   }
 
