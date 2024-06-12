@@ -2,6 +2,7 @@
   box-shadow: 2px 8px 12px 0px #0000001F;
   padding: 0 0 12px 0;
   border-radius: 8px;
+  width: 100%;
 }
 .pic{
   background: linear-gradient(180deg, rgba(255, 0, 122, 0.2) 0%, rgba(94, 0, 187, 0.2) 100%);
@@ -12,7 +13,7 @@
   height: auto;
 }
 .text{
-  padding: 12px 16px;
+  padding: 12px 16px 0;
 }
 .text h3{
   font-weight: 500;
@@ -36,6 +37,6 @@
 
 @media (max-width: 576px){
   .cardBody{
-    
+    padding: 0 0 0 0;
   }
 }
