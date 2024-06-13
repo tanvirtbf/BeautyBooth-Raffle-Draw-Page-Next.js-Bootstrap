@@ -26,10 +26,6 @@ const RaffleDraw = () => {
           <div className={`${styles.howItWorks} col`}>
             <div className={`${styles.firstPart}`}>
               <h2>How it works?</h2>
-              <p>
-                Don’t Live Another Day With Lower Back Pain. Take the Next Step
-                Today & Discover How We May Be Able to Help You.
-              </p>
             </div>
             <div className={`${styles.secondPart}`}>
               <DrawCard

@@ -33,14 +33,6 @@
   margin: 0;
 }
 
-.firstPart p {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  color: #3D3D4E;
-  margin: 0;
-}
-
 .secondPart {
   width: 100%;
   display: flex;
@@ -81,9 +73,8 @@
     font-size: 16px;
     line-height: 24px;
   }
-  .firstPart p {
-    font-size: 14px;
-    line-height: 20px;
+  .howItWorks {
+    padding: 32px 16px;
   }
 }
 @media (max-width: 1200px){
