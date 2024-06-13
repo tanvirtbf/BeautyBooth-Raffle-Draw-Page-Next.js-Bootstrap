@@ -1,13 +1,15 @@
-import img1 from '../../public/Image.png'
-import img2 from '../../public/Image (1).png'
-import img3 from '../../public/Image (2).png'
-import img4 from '../../public/Image (3).png'
-import img5 from '../../public/Image (4).png'
-import img6 from '../../public/Image (5).png'
-import img7 from '../../public/Image (6).png'
-import img8 from '../../public/Image (7).png'
-import img9 from '../../public/Image (8).png'
-import img10 from '../../public/Image (9).png'
+import img1 from '../../public/1.png'
+import img2 from '../../public/22.png'
+import img3 from '../../public/33.png'
+import img4 from '../../public/44.png'
+import img5 from '../../public/55.png'
+import img6 from '../../public/66.png'
+import img7 from '../../public/77.png'
+import img8 from '../../public/88.png'
+import img9 from '../../public/99.png'
+import img10 from '../../public/10.png'
+import img11 from '../../public/11.jpg'
+import img12 from '../../public/12.png'
 
 export const data = [
   {
@@ -59,5 +61,15 @@ export const data = [
     title : "Flat Discount Coupon for 20% off",
     person : 6,
     img : img10,
+  },
+  {
+    title : "Flat Discount Coupon for 10% off",
+    person : 10,
+    img : img11,
+  },
+  {
+    title : "Buffet Dinner",
+    person : 15,
+    img : img12,
   },
 ]
