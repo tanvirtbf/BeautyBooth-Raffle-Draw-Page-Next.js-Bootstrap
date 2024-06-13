@@ -1,18 +1,26 @@
 import Image from "next/image";
-import Vector from '../../public/Vector.png';
+import Vector from "../../public/Vector.png";
 import styles from "./ProductCard.module.css";
 
-const ProductCard = ({ title, person, url }) => {
-  console.log(url)
+const ProductCard = ({ title, person, url, isBadge, prizeNo }) => {
+  console.log(url);
   return (
     <div className={`${styles.cardBody}`}>
+      {isBadge && (
+        <div className={`${styles.badge}`}>
+          <p>{prizeNo && prizeNo === 1 ? '1st' : prizeNo === 2 ? '2nd' : prizeNo === 3 ? '3rd' : null} Prize</p>
+        </div>
+      )}
       <div className={`${styles.pic}`}>
         <Image src={url} alt={title} />
       </div>
       <div className={`${styles.text}`}>
         <h3>{title}</h3>
         <div className={`${styles.winner}`}>
-          <span> <Image src={Vector} alt={Vector} /> </span>
+          <span>
+            {" "}
+            <Image src={Vector} alt={Vector} />{" "}
+          </span>
           <p>Winner: {person} Person</p>
         </div>
       </div>
