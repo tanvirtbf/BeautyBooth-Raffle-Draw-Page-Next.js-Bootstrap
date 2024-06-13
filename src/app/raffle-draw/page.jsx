@@ -64,8 +64,8 @@ const RaffleDraw = () => {
                   title={item.title}
                   person={item.person}
                   url={item.img}
-                  isBadge={i<=3 ? true : false }
-                  prizeNo={i<=3 ? i : null}
+                  isBadge={i<3 ? true : false }
+                  prizeNo={i<3 ? i+1 : null}
                 />
               </div>
             ))}
