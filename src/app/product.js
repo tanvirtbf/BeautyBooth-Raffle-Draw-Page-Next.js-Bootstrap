@@ -50,22 +50,22 @@ export const data = [
   {
     title : "Gift Bundle for your skin concerrns",
     person : 6,
-    img : img8,
+    img : img11,
   },
   {
     title : "Flat Discount Coupon for 50% off",
     person : 5,
-    img : img9,
+    img : img8,
   },
   {
     title : "Flat Discount Coupon for 20% off",
     person : 6,
-    img : img10,
+    img : img9,
   },
   {
     title : "Flat Discount Coupon for 10% off",
     person : 10,
-    img : img11,
+    img : img10,
   },
   {
     title : "Buffet Dinner",
