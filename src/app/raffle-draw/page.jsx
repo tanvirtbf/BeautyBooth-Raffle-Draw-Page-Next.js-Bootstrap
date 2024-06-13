@@ -6,7 +6,7 @@ import icon2 from "../../../public/icon-64-compass 1 (1).svg";
 import icon1 from "../../../public/icon-64-compass 1.svg";
 import icon3 from "../../../public/icon-64-compass 2.svg";
 import Banner from "../../../public/image 40.png";
-import MobileBanner from '../../../public/BG.png';
+import MobileBanner from '../../../public/web-mbl.jpg';
 import line from "../../../public/Line 3.png";
 import { data } from "../product";
 import styles from "./raffle-draw.module.css";

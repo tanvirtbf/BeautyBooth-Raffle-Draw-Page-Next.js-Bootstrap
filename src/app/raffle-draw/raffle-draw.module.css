@@ -64,6 +64,7 @@
   }
   .mobileBanner{
     display: block;
+    border-radius: 12px;
   }
   .secondPart {
     row-gap: 32px;
