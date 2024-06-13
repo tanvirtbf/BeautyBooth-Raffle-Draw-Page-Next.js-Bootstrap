@@ -16,7 +16,7 @@ const ProductCard = ({ title, person, url, prizeNo }) => {
             : { backgroundColor: "#00CA8D" }
         }
       >
-        <p>{`${prizeNo}th`} Prize</p>
+        <p>{`${prizeNo}${prizeNo===1?'st': prizeNo===2?'nd': prizeNo===3?'rd':'th'}`} Prize</p>
       </div>
       <div className={`${styles.pic}`}>
         <Image src={url} alt={title} />
