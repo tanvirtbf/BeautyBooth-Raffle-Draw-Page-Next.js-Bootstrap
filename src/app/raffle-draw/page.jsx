@@ -6,6 +6,7 @@ import icon2 from "../../../public/icon-64-compass 1 (1).svg";
 import icon1 from "../../../public/icon-64-compass 1.svg";
 import icon3 from "../../../public/icon-64-compass 2.svg";
 import Banner from "../../../public/image 40.png";
+import MobileBanner from '../../../public/BG.png';
 import line from "../../../public/Line 3.png";
 import { data } from "../product";
 import styles from "./raffle-draw.module.css";
@@ -16,7 +17,8 @@ const RaffleDraw = () => {
       <div className="container">
         <div className="row">
           <div className={`${styles.mainBannerImg} col`}>
-            <Image src={Banner} alt={Banner} />
+            <Image src={Banner} alt={Banner} className={`${styles.bannerImg}`}/>
+            <Image src={MobileBanner} alt={MobileBanner} className={`${styles.mobileBanner}`} />
           </div>
         </div>
 
