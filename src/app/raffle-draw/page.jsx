@@ -11,7 +11,6 @@ import { data } from "../product";
 import styles from "./raffle-draw.module.css";
 
 const RaffleDraw = () => {
-  // console.log(data);
   return (
     <>
       <div className="container">
@@ -45,7 +44,7 @@ const RaffleDraw = () => {
               />
               <DrawCard
                 title="Win the lucky draw"
-                para="ভাগ্যবান বিজয়ীরা পাবেন আমাদের পক্ষ থেকে আকর্ষণীয় পুরষ্কার আকর্ষণীয় পুরষ্কার আকর্ষণীয় পুরষ্কার"
+                para="ভাগ্যবান বিজয়ীরা পাবেন আমাদের পক্ষ থেকে আকর্ষণীয় পুরষ্কার"
                 icon={icon3}
                 line={false}
               />
